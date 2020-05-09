@@ -91,6 +91,8 @@ html {
 }
 /* end of navbar */
 
+
+/* Hero */
 .overlay {
   background: url('./images/img2.jpg') center/cover ;
 }
@@ -149,6 +151,9 @@ section {
   padding: 135px 10px 50px 10px;
 }
 
+/* end of Hero */
+
+/* Menu */
 .grid {
   display: grid;
   grid-gap: 20px;
@@ -186,10 +191,46 @@ section {
  }
 }
 
+/* end of Menu */
+
 #contact {
   margin-bottom: 345px;
 }
 
+.about {
+  background-image: url('./images/img10.jpg');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 135vh;
+}
+
+.about-info {
+  background-color: var(--primary-Color);
+  height: 100%;
+  width: 30%;
+  margin-left: 50px;
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.about-content {
+  padding: 25vh 8px;
+}
+
+.about-content h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.about-content h4 {
+  font-size: 19px;
+  padding: 15px 30px;
+  letter-spacing: .5px;
+}
+
+/* Footer */
 footer{
   position: absolute;
   bottom: 0;
@@ -321,7 +362,6 @@ footer{
   color: var(--mainwhite);
   border: 1px solid var(--main-white);
 }
-
 
 @media (max-width: 880px) {
   footer {
