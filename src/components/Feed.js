@@ -2,7 +2,7 @@ import React from 'react';
 
 const Feed = () => {
   return (
-    <div id="feed">
+    <div className="feed" id="feed">
       Hello from feed page
     </div>
   );
