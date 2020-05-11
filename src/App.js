@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import Footer from './components/Footer'
 import About from './components/About'
 import Menu from './components/Menu'
-import Feed from './components/Feed'
+import Dining from './components/Dining'
 import Contact from './components/Contact'
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
       <Hero/>
       <Menu/>
       <About/>
-      <Feed/>
+      <Dining/>
       <Contact/>
       <Footer/>
       </>
