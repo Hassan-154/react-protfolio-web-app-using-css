@@ -15,7 +15,7 @@ const Footer = () => {
 			<h2>Get to know us</h2>
 			<div className="part">
 				<p>We are LA 16, proud to serve you the best out there. With firm conviction and assurance for as delicious as fresh food, we look onwards to excellence in our way.</p><br/>
-				<a href="/">Your table is over here</a>
+				<Link smooth to="#dining">Your table is over here</Link>
 			</div>
 		</div>
  

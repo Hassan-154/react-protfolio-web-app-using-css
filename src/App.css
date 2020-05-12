@@ -7,14 +7,14 @@
 }
 
 :root {
-  --primary-Color: rgb(203, 180, 112);
+  --main-yellow: rgba(203, 180, 112, 0.948);
   --main-black: rgb(39, 40, 41);
   --main-white: rgb(223, 221, 214);
   --main-font: 'Stardos Stencil', cursive;
   --mainTransition: all 0.25s ease-in-out;
   --mainSpacing: 2px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 3px 8px 3px 1px rgba(0, 0, 0, 0.5);
+  --darkShadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
 }
 /* globals */
 html {
@@ -106,7 +106,6 @@ section {
 }
 
 .intro {
-  opacity: 0.95;
   height: 125vh;
   padding-top: 30px;
 }
@@ -120,11 +119,11 @@ section {
   text-align: center;
   padding-left: 10rem;
   padding-right: 10rem;
-  background: rgba(206, 206, 206, 0.048);
+  background: rgba(206, 206, 206, 0.035);
 }
 
 .content h1 {
-  background-color: var(--primary-Color);
+  background-color: var(--main-yellow);
   padding-top: 8px;
   font-family: var(--main-font);
   font-size: 50px;
@@ -135,7 +134,7 @@ section {
 .intro .content h4 {
   padding-bottom: 30px;
   text-align: center;
-  background-color: var(--primary-Color);
+  background-color: var(--main-yellow);
   font-family: var(--main-font);
 }
 /* end of Hero */
@@ -203,7 +202,7 @@ section {
 }
 
 .about-info {
-  background-color: var(--primary-Color);
+  background-color: var(--main-yellow);
   height: 100%;
   width: 30%;
   margin-left: 50px;
@@ -241,6 +240,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  text-align: center;
 }
 
 .dining-info {
@@ -252,11 +252,67 @@ section {
 .dining-info h1 {
   margin: 10px;
 }
+.dining h2 {
+  margin: 50px 0 10px 0;
+}
 
 .dining-info p {
   margin: 20px 120px;
   font-size: 20px;
   letter-spacing: .8px;
+}
+
+.banner {
+  display: inline-block;
+  width: 65%;
+  background: var(--main-yellow);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  margin: 40vh 0;
+  font-family: var(--main-font);
+}
+.banner h1 {
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--mainBlack);
+  background: var(--main-yellow);
+  padding: 9px;
+  border: 1px solid var(--main-black);
+  border-radius: 1px;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--main-font);
+  width:150px;
+  height: 40px;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--main-yellow);
 }
 
 .dining-select {
@@ -268,6 +324,7 @@ section {
   width: 49%;
   height: 300px;
   float: left;
+  letter-spacing: var(--mainSpacing);
 }
 
 .one {
@@ -278,6 +335,7 @@ section {
   background-size: cover;
   margin-right: 20px;
   transition: var(--mainTransition);
+  box-shadow: var(--lightShadow);
 }
 .two {
   background-image: url('./images/img14.jpg');  
@@ -286,8 +344,47 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   transition: var(--mainTransition);
+  box-shadow: var(--lightShadow);
+}
+.one:hover, .two:hover {
+  box-shadow: var(--darkShadow);
 }
 
+.card {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  opacity: 0;
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--main-font);
+  transition: all 0.30s ease-in-out;
+}
+
+.card h1 {
+  padding: 25px;
+  font-size: 30px;
+  color: var(--font-color);
+  background-color: var(--main-yellow);
+}
+
+.card:hover {
+  opacity: 0.98;
+}
+
+.price {
+  position: absolute;
+  width: 130px;
+  bottom: 1;
+  left: 1;
+  background: var(--main-yellow);
+  color: var(--main-black);
+  padding: 0.5rem 0.6rem 0.5rem;
+  margin-top: 161.5px;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: var(--mainTransition);
+}
 /* end of Dining */
 
 /* Contact page */
