@@ -7,6 +7,7 @@ import About from './components/About'
 import Menu from './components/Menu'
 import Dining from './components/Dining'
 import Contact from './components/Contact'
+import Login from './components/Login'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
       <Menu/>
       <About/>
       <Dining/>
+      <Login/>
       <Contact/>
       <Footer/>
       </>

@@ -7,9 +7,9 @@
 }
 
 :root {
-  --main-yellow: rgba(203, 180, 112, 0.948);
-  --main-black: rgb(39, 40, 41);
-  --main-white: rgb(223, 221, 214);
+  --main-yellow: #cbb470f2;
+  --main-black: #272829;
+  --main-white: #dfddd6;
   --main-font: 'Stardos Stencil', cursive;
   --mainTransition: all 0.25s ease-in-out;
   --mainSpacing: 2px;
@@ -170,7 +170,7 @@ section {
 .project6{position:relative;width:100%;height:95%;display:flex;background:url(./images/img4.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: var(--lightShadow)}
 .project7{position:relative;width:100%;height:95%;display:flex;background:url(./images/img5.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: var(--lightShadow)}
 .project8{position:relative;width:100%;height:95%;display:flex;background:url(./images/img9.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: var(--lightShadow)}
-.project9{position:relative;width:100%;height:95%;display:flex;background:url(./images/img7.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: var(--lightShadow)}
+.project9{position:relative;width:100%;height:95%;display:flex;background:url(./images/img15.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: var(--lightShadow)}
 
 .projects--medium {
   grid-row-end: span 2;
@@ -187,7 +187,7 @@ section {
 
 .projects--medium:hover {
   transform: scale(0.98);
-  opacity: 0.9;
+  opacity: 0.91;
 }
 
 @media screen and (min-width: 768px) {
@@ -221,7 +221,7 @@ section {
 
 .menu-name {
   position: absolute;
-  width: 130px;
+  width: 150px;
   bottom: 1;
   left: 1;
   background: var(--main-yellow);
@@ -274,7 +274,7 @@ section {
 /* Dining page */
 .dining {
   background-color: var(--main-white);
-  padding: 150px 0;
+  padding: 130px 0;
 }
 
 #dining {
@@ -368,6 +368,8 @@ section {
   width: 49%;
   height: 300px;
   float: left;
+  text-decoration: none;
+  color: var(--main-font);
   letter-spacing: var(--mainSpacing);
 }
 
@@ -443,6 +445,22 @@ iframe {
 }
 
 /* end of Contact */
+
+/* Login Page */
+.login-page {
+  background-color: var(--main-white);
+  padding: 0 0 100px 0;
+}
+.login-form {
+  background-image: url('./images/17.png');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 130vh;
+}
+
 
 /* Footer */
 footer{

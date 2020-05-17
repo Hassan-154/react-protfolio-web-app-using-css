@@ -9,73 +9,73 @@ const Menu = () => {
       <div className="grid">
         <div className="project1 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Vegetable Som Tam</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Salads</p>
             </div>
           </div>
         </div>
         <div className="project2 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Quattro Formaggi</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Pizzas</p>
             </div>
           </div>
         </div>
         <div className="project3 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>London Broil</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Steaks</p>
             </div>
           </div>
         </div>
         <div className="project4 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Baked Cheese Filling</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Tacos</p>
             </div>
           </div>
         </div>
         <div className="project5 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Gordita Crunch</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Stuff Rice</p>
             </div>
           </div>
         </div>
         <div className="project6 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Rum-Raisin Sundaes</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Desserts</p>
             </div>
           </div>
         </div>
         <div className="project7 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Naan with Mix-Veg</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Pure Veg.</p>
             </div>
           </div>
         </div>
         <div className="project8 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Thrill of the Grill</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Burgers</p>
             </div>
           </div>
         </div>
         <div className="project9 projects--medium">
           <div className="menu-card">
-            <h1>Dish Name</h1>
+            <h1>Treat your Family</h1>
             <div className="menu-name">
-              <p>Free Y/N</p>
+              <p>Main Course</p>
             </div>
           </div>
         </div>

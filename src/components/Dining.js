@@ -1,4 +1,5 @@
 import React from 'react';
+import {HashLink as Link} from 'react-router-hash-link'
 
 const Dining = () => {
   return (
@@ -14,22 +15,22 @@ const Dining = () => {
         <h2>Book the best one here</h2>
       </div>
       <div className="dining-select">
-        <div class="one">
+        <Link smooth to="#login" class="one">
           <div className="card">
             <h1>Regular Dining</h1>
             <div className="price">
               <p>$799</p>
             </div>
           </div>
-        </div>
-        <div class="two">
+        </Link>
+        <Link smooth to="#login" class="two">
           <div className="card">
             <h1>Exclusive Dining</h1>
             <div className="price">
               <p>$1199</p>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

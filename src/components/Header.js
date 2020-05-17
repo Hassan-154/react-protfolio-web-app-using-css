@@ -39,10 +39,10 @@ export default class Navbar extends Component {
               <Link smooth to="#dining">Dining</Link>
             </li>
             <li>
-              <Link smooth to="#contact">Contact</Link>
+              <Link smooth to="#login">Login</Link>
             </li>
             <li>
-              <Link smooth to="#footer">Login</Link>
+              <Link smooth to="#contact">Contact</Link>
             </li>
           </ul>
         </div>
