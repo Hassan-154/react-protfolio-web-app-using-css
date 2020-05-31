@@ -9,7 +9,7 @@
 :root {
   --main-yellow: #cbb470f2;
   --main-black: #272829;
-  --main-white: #dfddd6;
+  --main-white: #ddd;
   --main-font: 'Stardos Stencil', cursive;
   --mainTransition: all 0.25s ease-in-out;
   --mainSpacing: 2px;
@@ -82,7 +82,7 @@ html {
     height: auto;
     display: flex;
     margin-left: 24em;
-    padding: 2.3rem 7rem;
+    padding: 2.3rem 0.5rem;
   }
   .nav-links a {
     margin: 0 1rem;
@@ -149,7 +149,7 @@ section {
 .welcome {
   font-family: var(--main-font);
   height: 80px;
-  padding: 125px 10px 50px 10px;
+  padding: 125px 10px 80px 10px;
 }
 
 .grid {
@@ -274,7 +274,7 @@ section {
 /* Dining page */
 .dining {
   background-color: var(--main-white);
-  padding: 130px 0;
+  padding: 150px 0;
 }
 
 #dining {
@@ -433,34 +433,171 @@ section {
 }
 /* end of Dining */
 
-/* Contact page */
-#contact {
-  margin-bottom: 345px;
-  height: 138vh;
-}
-
-iframe {
-  width: 100%;
-  height: 800px;
-}
-
-/* end of Contact */
-
-/* Login Page */
-.login-page {
+/* Order page */
+#order {
   background-color: var(--main-white);
-  padding: 0 0 100px 0;
+  margin-bottom: 345px;
+  height: 177vh;
 }
-.login-form {
-  background-image: url('./images/17.png');
+.order-title {
+  text-align: center;
+  padding-top: 130px;
+  font-family: var(--main-font);
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  margin: 60px 0;
+  height: 300px;
+}
+.brunch {
+  background-image: url('./images/img1.jpg');
   background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 130vh;
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  margin: auto;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  margin: 60px 0;
+  height: 300px;
+}
+.dinner {
+  background-image: url('./images/img2.jpg');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  margin: auto;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  margin: 60px 0;
+  height: 300px;
+}
+.party {
+  background-image: url('./images/img4.jpg');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  margin: auto;
+}
+.row h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.row h2 {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin: 140px 30px;
+  padding: 15px;
+  background-color: var(--main-yellow);
+  opacity: 0.95;
+}
+.call {
+  background-image: url('./images/img17.jpg');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  float: left;
+  width: 33.33%;
+  height: 350px;
+}
+.walk {
+  background-image: url('./images/img19.jpg');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-top: 80px;
+  width: 33.33%;
+  height: 350px;
+}
+.online {
+  background-image: url('./images/img18.jpg');
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  float: left;
+  width: 33.33%;
+  height: 350px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+/* end of Order */
+
+/* Service Page */
+.services {
+  padding: 5rem 0;
+  margin-top: 0;
+  background: var(--main-yellow);
+  text-align: center;
+  font-family: var(--main-font);
+}
+.services-center {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.service {
+  /* background-color: red; */
+  height: 300px;
+  padding: 30px 80px;
+}
+.service span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+.services h6 {
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  font-size: 23px;
+}
+.services p {
+  width: 100%;
+  margin: 10px auto;
+  font-size: 18px;
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services p {
+    width: 100%;
+  }
+}
 
 /* Footer */
 footer{
@@ -583,7 +720,8 @@ footer{
 	font-size: 25px;
 	color: var(--font-color);
 	text-align: center;
-	margin-right: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
   padding: 11px 1px;
   border: 1.5px solid var(--main-black);
   border-radius: 30px;

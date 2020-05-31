@@ -6,8 +6,8 @@ import Footer from './components/Footer'
 import About from './components/About'
 import Menu from './components/Menu'
 import Dining from './components/Dining'
-import Contact from './components/Contact'
-import Login from './components/Login'
+import Order from './components/Order'
+import Service from './components/Service'
 
 class App extends Component {
   render() {
@@ -18,8 +18,8 @@ class App extends Component {
       <Menu/>
       <About/>
       <Dining/>
-      <Login/>
-      <Contact/>
+      <Service/>
+      <Order/>
       <Footer/>
       </>
     );
