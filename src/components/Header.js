@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 import { FaAlignRight } from "react-icons/fa";
 import logo from "../images/logo.png";
 
@@ -15,9 +15,9 @@ export default class Navbar extends Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
-            <NavHashLink smooth to="#home">
+            <Link smooth to="#home">
               <img src={logo} width="110px" alt="LA 16" />
-            </NavHashLink>
+            </Link>
             <button
               type="button"
               className="nav-btn"
@@ -27,22 +27,22 @@ export default class Navbar extends Component {
           </div>
           <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
             <li>
-              <NavHashLink smooth to="#home">Home</NavHashLink>
+              <Link smooth to="#home">Home</Link>
             </li>
             <li>
-              <NavHashLink smooth to="#menu">Menu</NavHashLink>
+              <Link smooth to="#menu">Menu</Link>
             </li>
             <li>
-              <NavHashLink smooth to="#about">About</NavHashLink>
+              <Link smooth to="#about">About</Link>
             </li>
             <li>
-              <NavHashLink smooth to="#dining">Dining</NavHashLink>
+              <Link smooth to="#dining">Dining</Link>
             </li>
             <li>
-              <NavHashLink smooth to="#login">Login</NavHashLink>
+              <Link smooth to="#login">Login</Link>
             </li>
             <li>
-              <NavHashLink smooth to="#contact">Contact</NavHashLink>
+              <Link smooth to="#contact">Contact</Link>
             </li>
           </ul>
         </div>
