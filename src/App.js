@@ -1,29 +1,22 @@
 // Latest Commit
 import React, { Component } from 'react';
 import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero';
-import Footer from './components/Footer'
-import About from './components/About'
-import Menu from './components/Menu'
-import Dining from './components/Dining'
-import Contact from './components/Contact'
-import Login from './components/Login'
+import About from './components/About';
+import Contact from './components/Contact';
+import HeaderSection from './components/HeaderSection';
+import NavBar from './components/NavBar';
+import Project from './components/Project';
 
 class App extends Component {
-  // sadsdadassadadsad
   render() {
     return (
-      <>
-      <Header/>
-      <Hero/>
-      <Menu/>
+      <div className="app">
+      <NavBar/>
+      <HeaderSection/>
       <About/>
-      <Dining/>
-      <Login/>
+      <Project/>
       <Contact/>
-      <Footer/>
-      </>
+      </div>
     );
   }
 }

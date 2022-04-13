@@ -1,0 +1,146 @@
+.contact{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    max-height: 120vh;
+    padding-top: 0em;
+    padding-bottom: 5em;
+    color: white;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.contact h1{
+    letter-spacing: 2px;
+    font-size: 95px;
+}
+.contact__container{
+    max-width: 1300px;
+    background: rgb(2,4,74);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.con__grid{
+    padding: 50px;
+    display: flex;
+}
+.con__info{
+    width: 100%;
+    max-width: 650px;
+    margin: 15px;
+}
+.con__heading h1{
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+.con__heading p{
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+.con__details{
+    padding-top: 100px;
+}
+.con__details ul li{
+    display: flex;
+    margin-bottom: 30px;
+}
+.con__details ul li p{
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+.con__social__icon{
+    padding-top: 70px;
+}
+.con__social__icon ul{
+    display: flex;
+}
+.con__social__icon ul li{
+    padding-right: 35px;
+}
+.con__icons:hover{
+    cursor: pointer;
+    color: rgb(76, 94, 122);
+}
+.con__form{
+    max-width: 650px;
+    width: 100%;
+    margin: 15px;
+    background: white;
+    border-radius: 15px;
+}
+.con__form form{
+    padding: 25px;
+}
+.con__form p{
+    color: rgb(31,41,55);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.con__form input{
+    background: rgb(31,41,55);
+    width: 100%;
+    max-width: 660px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+    font-size: 18.5px;
+}
+.con__form input:focus{
+    background: rgb(76, 94, 122);
+}
+.con__form textarea{
+    background: rgb(31,41,55);
+    width: 100%;
+    padding-bottom: 55px;
+    max-width: 620px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+    color: white;
+    font-size: 18.5px;
+}
+.con__form textarea:focus{
+    background: rgb(76, 94, 122);
+}
+.con__form button{
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 9px 40px;
+    cursor: pointer;
+    background: rgb(60, 65, 204) !important;
+    font-size: 17.5px;
+    font-weight: 300;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.con__form button:hover{
+    background: rgb(76, 94, 122) !important;
+    transition: all 0.3s;
+}
+@media screen and (max-width: 775px) {
+    .contact{
+        max-height: 165vh;
+    }
+    .con__grid{
+        flex-direction: column;
+        padding-left: 10px !important;
+    }
+    .contact h1{
+        font-size: 70px;
+        padding-left: 10px;
+    }
+    .con__heading h1{
+        font-size: 26px;
+        padding-left: 0px;
+    }
+
+}
+
+
