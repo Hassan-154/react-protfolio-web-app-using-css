@@ -11,6 +11,7 @@
 .about h1{
     letter-spacing: 2px;
     font-size: 95px;
+    padding: 10px 50px;
 }
 .about__container{
     background: rgb(17,24,39);
@@ -26,8 +27,8 @@
 .about__grid{
     line-height: 28px;
 }
-.about__grid h1{
-    font-size: 19.5px;
+.about__grid h2{
+    font-size: 23.5px;
     padding-bottom: 10px;
 }
 .about__grid p{
@@ -122,4 +123,13 @@
 .mui{
     width: 90px;
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 775px) {
+    .about h1{
+        padding: 10px 10px;
+    }
+    .about__container{
+        padding: 25px;
+    }
 }

@@ -46,7 +46,7 @@ function Contact() {
         <div className="con__info">
 
         <div className="con__heading">
-        <h1>Get in touch, let's talk.</h1>
+        <h2>Get in touch, let's talk.</h2>
         <p>Fill in the details and feel free to connect with me.</p>
         </div>
 

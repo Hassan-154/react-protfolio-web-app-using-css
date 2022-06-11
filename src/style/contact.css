@@ -12,6 +12,7 @@
 .contact h1{
     letter-spacing: 2px;
     font-size: 95px;
+    padding: 10px 50px;
 }
 .contact__container{
     max-width: 1300px;
@@ -28,7 +29,7 @@
     max-width: 650px;
     margin: 15px;
 }
-.con__heading h1{
+.con__heading h2{
     font-size: 26px;
     letter-spacing: 0.5px;
     padding-bottom: 10px;
@@ -134,7 +135,7 @@
     }
     .contact h1{
         font-size: 70px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
     .con__heading h1{
         font-size: 26px;

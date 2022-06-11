@@ -19,12 +19,12 @@ function About() {
         <div className='about__grid'>
         <Grid lg={12} item container spacing={5}>
         <Grid item lg={4} sm={4} xs={12}>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <p>To get in touch with me, shoot a mail</p>
-        <h1>Job Opportunities</h1>
+        <h2>Job Opportunities</h2>
         <p>I'm currently looking for an internship, If you see me as a good fit, check my <a onClick={()=> window.open("https://hassan-154.github.io/sports-web/", "_blank")}>Resume</a> and I'd love to work with you.</p>
-        <h1>Social Links
-        </h1>
+        <h2>Social Links
+        </h2>
 
         <div className='social__Links'>
             <AiOutlineArrowRight size={20}/><a onClick={()=> window.open("https://hassan-154.github.io/sports-web/", "_blank")}>Facebook</a>
