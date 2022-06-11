@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-protfolio-web-app-using-css/static/css/main.fbdff0bd.chunk.css",
+    "main.js": "/react-protfolio-web-app-using-css/static/js/main.15c06e4b.chunk.js",
+    "main.js.map": "/react-protfolio-web-app-using-css/static/js/main.15c06e4b.chunk.js.map",
+    "runtime-main.js": "/react-protfolio-web-app-using-css/static/js/runtime-main.cf14f50e.js",
+    "runtime-main.js.map": "/react-protfolio-web-app-using-css/static/js/runtime-main.cf14f50e.js.map",
+    "static/js/2.35d3ad84.chunk.js": "/react-protfolio-web-app-using-css/static/js/2.35d3ad84.chunk.js",
+    "static/js/2.35d3ad84.chunk.js.map": "/react-protfolio-web-app-using-css/static/js/2.35d3ad84.chunk.js.map",
+    "index.html": "/react-protfolio-web-app-using-css/index.html",
+    "precache-manifest.d8f62c3d46f3ae83939e11a78fd9c0da.js": "/react-protfolio-web-app-using-css/precache-manifest.d8f62c3d46f3ae83939e11a78fd9c0da.js",
+    "service-worker.js": "/react-protfolio-web-app-using-css/service-worker.js",
+    "static/css/main.fbdff0bd.chunk.css.map": "/react-protfolio-web-app-using-css/static/css/main.fbdff0bd.chunk.css.map",
+    "static/js/2.35d3ad84.chunk.js.LICENSE.txt": "/react-protfolio-web-app-using-css/static/js/2.35d3ad84.chunk.js.LICENSE.txt",
+    "static/media/headerSection.css": "/react-protfolio-web-app-using-css/static/media/jefferson-santos-9SoCnyQmkzI-unsplash.67043764.jpg",
+    "static/media/xd.png": "/react-protfolio-web-app-using-css/static/media/xd.33aa9322.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf14f50e.js",
+    "static/js/2.35d3ad84.chunk.js",
+    "static/css/main.fbdff0bd.chunk.css",
+    "static/js/main.15c06e4b.chunk.js"
+  ]
+}
