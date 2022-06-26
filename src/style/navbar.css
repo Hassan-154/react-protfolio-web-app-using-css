@@ -42,7 +42,7 @@
 
 .navbar__container__mobile{
     width: 100%;
-    max-width: 630px;
+    max-width: 500px;
     margin: 0 auto;
 }
 .navbar__container__mobile ul{
